@@ -1,0 +1,32 @@
+{
+  "description": "Converts the text input to a Checkbox.",
+  "label": "Convert Text to Checkbox",
+  "category": "Convert",
+  "icon": {
+    "color": "Teal",
+    "name": "VariableIcon"
+  },
+  "options": [
+    {
+      "label": "Input",
+      "info": "The value you want to convert to a Boolean",
+      "meta": {
+        "type": "Value",
+        "allowedKinds": ["STRING"],
+        "validations": {
+          "required": true
+        }
+      },
+      "name": "input"
+    },
+    {
+      "label": "AS",
+      "meta": {
+        "type": "Boolean"
+      },
+      "name": "as",
+      "info": "If the text equals true the checkbox will be true."
+    }
+  ],
+  "yields": "NONE"
+}

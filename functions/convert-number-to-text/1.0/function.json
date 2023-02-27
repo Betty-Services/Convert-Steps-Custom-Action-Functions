@@ -1,0 +1,35 @@
+{
+  "description": "Converts the Number input to a Checkbox.",
+  "label": "Convert Number to Text",
+  "category": "Convert",
+  "icon": {
+    "color": "Teal",
+    "name": "VariableIcon"
+  },
+  "options": [
+    {
+      "label": "Input",
+      "info": "The value you want to convert to a Text",
+      "meta": {
+        "type": "Value",
+        "allowedKinds": ["NUMBER"],
+        "validations": {
+          "required": true
+        }
+      },
+      "name": "input"
+    },
+    {
+      "label": "AS",
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Text"
+        }
+      },
+      "name": "as",
+      "info": "The name of the variable you want for the parsed value."
+    }
+  ],
+  "yields": "NONE"
+}

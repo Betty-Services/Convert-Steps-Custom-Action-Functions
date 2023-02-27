@@ -1,0 +1,33 @@
+{
+  "description": "Converts the Object input to JSON text.",
+  "label": "Convert Object to JSON",
+  "category": "Convert",
+  "icon": {
+    "color": "Teal",
+    "name": "VariableIcon"
+  },
+  "options": [
+    {
+      "label": "input",
+      "name": "input",
+      "meta": {
+        "type": "Value",
+        "allowedKinds": ["OBJECT"],
+        "validations": {
+          "required": true
+        }
+      }
+    },
+    {
+      "label": "as",
+      "name": "as",
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Text"
+        }
+      }
+    }
+  ],
+  "yields": "NONE"
+}
