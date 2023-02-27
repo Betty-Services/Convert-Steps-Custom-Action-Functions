@@ -1,47 +1,35 @@
-![Action Validation](https://github.com/betty-services/Custom-Action-Functions-Template/actions/workflows/main.yml/badge.svg?event=push)
+![Action Validation](https://github.com/betty-services/Convert-Custom-Action-Functions/actions/workflows/main.yml/badge.svg?event=push)
 
-# Custom Action Functions Template
+# Convert Steps Custom Action Functions
 
-This repository can be used to kick-start your new repositories for Custom Action Functions.
+This repository hosts the code for the custom actions steps found in the [Convert Steps](https://my.bettyblocks.com/block-store/fcf5541b-f821-4374-9e9e-2def86e5f989/) from the Betty Blocks block store.
 
-### What does this repository include
+## This repository hosts the following steps:
 
-- `config.json`
-  - Simply set your applications' ID (make sure to use the lowest sandboxes' ID) to publish new functions.
-- `.gitignore`
-  - To not commit any unnecessary files.
-- Function validation
-  - Currently only scoped to validate the custom action steps when pushed to the repository.
-- Ready to use jest configuration
-  - Install jest using `npm i -g jest`
-  - Run the `jest` command
-- An example function including an example Jest test script
-- A protected `main` branch that requires pulls to be updated.
+- Convert JSON to Object
+- Convert Number to Text
+- Convert Object to JSON
+- Convert Text to Checkbox
+- Convert Text to Number
 
-### First steps:
+### Convert JSON to Object
 
-1.  Create a new repository. Use this repository as a template.
-2.  Pull your repository.
-3.  Run `npm ci` to install all required packages.
-4.  Develop!
+This step converts a JSON string into an Object.
 
-### To do:
+### Convert Number to Text
 
-- [ ] Automated jest testing
-  - [ ] Include coverage report in `README.md` file
-- [ ] Automated block publishing
-- [ ] Fix hardcoded badge URL in `README.md`
+This step converts a Number to Text.
 
----
+### Convert Object to JSON
 
-**Remove the content above when you made a new repository from this template and keep the following:**
+This step converts an Object to it's JSON equivalent.
 
-# 'Block Name' Custom Action Functions
+### Convert Text to Checkbox
 
-This repository hosts the code for the custom actions steps found in the [the blocks' name](https://my.bettyblocks.com/block-store/blockId/) from the Betty Blocks block store.
+This step converts a Text into a Checkbox.
+If the text equals `true` the checkbox ouput will be `true`.
 
-### This repository hosts the following steps:
+### Convert Text to Number
 
-- Example Function
-
-_Do not forget to update the badge above once this repository has been used._
+This step converts a Text into a Number.
+If the conversion can't happen, a `NaN` will be returned.
