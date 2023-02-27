@@ -1,6 +1,6 @@
 {
   "description": "Converts the Number input to a Checkbox.",
-  "label": "Convert Number to Text",
+  "label": "Number to Text",
   "category": "Convert",
   "icon": {
     "color": "Teal",

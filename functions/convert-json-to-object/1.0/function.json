@@ -1,6 +1,6 @@
 {
   "description": "Converts a JSON string into an Object.",
-  "label": "Convert JSON to Object",
+  "label": "JSON to Object",
   "category": "Convert",
   "icon": {
     "color": "Teal",

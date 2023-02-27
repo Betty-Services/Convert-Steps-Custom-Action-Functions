@@ -1,6 +1,6 @@
 {
   "description": "Converts the text input to a Checkbox.",
-  "label": "Convert Text to Checkbox",
+  "label": "Text to Checkbox",
   "category": "Convert",
   "icon": {
     "color": "Teal",

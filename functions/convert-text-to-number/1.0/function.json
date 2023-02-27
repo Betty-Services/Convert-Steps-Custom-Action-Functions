@@ -1,6 +1,6 @@
 {
   "description": "Converts the text input to a Number",
-  "label": "Convert Text as Number",
+  "label": "Text to Number",
   "category": "Convert",
   "icon": {
     "color": "Teal",
