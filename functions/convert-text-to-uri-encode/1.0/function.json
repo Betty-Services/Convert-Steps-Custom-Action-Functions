@@ -1,6 +1,6 @@
 {
   "description": "Converts the Text input to URI Encoded.",
-  "label": "Convert Text to URI Encode",
+  "label": "Text to URI Encode",
   "category": "Convert",
   "icon": {
     "color": "Teal",
