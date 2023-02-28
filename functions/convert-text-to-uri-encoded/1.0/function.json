@@ -1,0 +1,30 @@
+{
+  "description": "Converts the Object input to XML.",
+  "label": "Convert Text to URI Encoded",
+  "category": "Convert",
+  "icon": {
+    "color": "Teal",
+    "name": "VariableIcon"
+  },
+  "options": [
+    {
+      "name": "input",
+      "label": "input",
+      "meta": {
+        "type": "Value",
+        "allowedKinds": ["STRING"]
+      }
+    },
+    {
+      "label": "as",
+      "name": "as",
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Text"
+        }
+      }
+    }
+  ],
+  "yields": "NONE"
+}
