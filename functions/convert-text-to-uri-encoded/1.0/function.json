@@ -1,6 +1,6 @@
 {
-  "description": "Converts the Object input to XML.",
-  "label": "Convert Text to URI Encoded",
+  "description": "Converts the Text input to URI Encoded.",
+  "label": "Convert Text to URI Encode",
   "category": "Convert",
   "icon": {
     "color": "Teal",
