@@ -11,6 +11,8 @@ This repository hosts the code for the custom actions steps found in the [Conver
 - Convert Object to JSON
 - Convert Text to Checkbox
 - Convert Text to Number
+- Convert Object to XML
+- Convert Text to URI Encode
 
 ### Convert JSON to Object
 
@@ -33,3 +35,39 @@ If the text equals `true` the checkbox ouput will be `true`.
 
 This step converts a Text into a Number.
 If the conversion can't happen, a `NaN` will be returned.
+
+### Convert Object to XML
+
+This step converts an Object into XML.
+
+For example:
+
+```JS
+{
+    xml: {
+        new: 'object',
+        equals: true
+    }
+}
+```
+
+will return as:
+
+```XML
+<?xml version="1.0" encoding="utf-8"?><xml><new>object</new><equals>true</equals></xml>
+```
+
+### Convert Text to URI Encoded
+
+This step URI Encodes an piece of Text.
+For example:
+
+```
+maarten.geerse@bettyblocks.com
+```
+
+will result in
+
+```
+maarten.geerse%40bettyblocks.com
+```
