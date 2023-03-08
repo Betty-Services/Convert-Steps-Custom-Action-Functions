@@ -1,7 +1,11 @@
 const convertJsonToObject = async ({ input }) => {
-  return {
-    as: JSON.parse(input),
-  };
+  try {
+    return {
+      as: JSON.parse(`${input}`),
+    };
+  } catch (e) {
+    throw new Error(e);
+  }
 };
 
 export default convertJsonToObject;
