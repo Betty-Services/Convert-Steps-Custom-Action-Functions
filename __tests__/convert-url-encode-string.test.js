@@ -1,4 +1,4 @@
-import convertTextToUriEncode from '../functions/convert-text-to-uri-encoded/1.0';
+import convertTextToUriEncode from '../functions/convert-text-to-uri-encode/1.0';
 
 describe('uri encode', () => {
   test('encode string', async () => {
