@@ -13,7 +13,7 @@
       "info": "The value you want to convert to an object.",
       "meta": {
         "type": "Value",
-        "allowedKinds": ["JSON"],
+        "allowedKinds": ["JSON", "STRING"],
         "validations": {
           "required": true
         }
