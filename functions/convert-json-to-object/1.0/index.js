@@ -4,7 +4,6 @@ const convertJsonToObject = async ({ input }) => {
       as: JSON.parse(`${input}`),
     };
   } catch (e) {
-    console.log(input);
     throw new Error(e);
   }
 };

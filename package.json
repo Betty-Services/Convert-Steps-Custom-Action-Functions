@@ -20,6 +20,6 @@
   "dependencies": {
     "@babel/preset-env": "^7.20.2",
     "graphql": "^16.6.0",
-    "xmlbuilder2": "^3.0.2"
+    "xmlbuilder": "^15.1.1"
   }
 }

@@ -1,7 +1,7 @@
-import { create } from 'xmlbuilder2';
+import { create } from 'xmlbuilder';
 const objectToXml = async ({ feedObj }) => {
   return {
-    as: create({ version: '1.0', encoding: 'utf-8' }, feedObj).end({
+    as: create(feedObj, { version: '1.0', encoding: 'utf-8' }).end({
       pretty: false,
     }),
   };
