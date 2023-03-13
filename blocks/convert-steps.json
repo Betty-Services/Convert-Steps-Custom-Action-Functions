@@ -4,7 +4,7 @@
     "convertObjectToJson 1.0",
     "convertTextToNumber 1.0",
     "convertNumberToText 1.0",
-    "convertJsonToObject 1.1",
+    "convertJsonToObject 1.0",
     "convertTextToCheckbox 1.0",
     "convertObjectToXml 1.0",
     "convertTextToUriEncode 1.0"
