@@ -24,7 +24,7 @@
       "meta": {
         "type": "Output",
         "output": {
-          "type": "Text"
+          "type": "JSON"
         }
       }
     }
